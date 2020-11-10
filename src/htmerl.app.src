@@ -1,0 +1,14 @@
+{application, htmerl, [
+    {description, "A library to parse HTML into 'node' based format similar to xmerl, and back again."},
+    {vsn, "1.0.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env,[]},
+    {modules, []},
+
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+]}.
